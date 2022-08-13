@@ -73,3 +73,10 @@ addBtn.addEventListener('click', () => {
     BookObject.clearInputs();
   }
 });
+
+window.onload = () => {
+  BookObject.displayBooks();
+  if (collection.innerHTML === '') {
+    collection.style.border = 'none';
+  }
+};
