@@ -59,12 +59,13 @@ nav ul li {
 }
 
 .dateDisplay {
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
     font-size: 1rem;
-    margin: 1rem 2rem 0 0;
+    padding-right: 70px;
 }
 
 h1 {
@@ -139,6 +140,7 @@ input {
     width: 75%;
     text-align: center;
     margin-top: 1rem;
+    margin: 0 auto;
 }
 
 .addNew h2 {
