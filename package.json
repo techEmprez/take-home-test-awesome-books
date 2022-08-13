@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/techEmprez/awesome-books-ES6/issues"
   },
-  "homepage": "https://github.com/techEmprez/awesome-books-ES6#readme"
+  "homepage": "https://github.com/techEmprez/awesome-books-ES6#readme",
+  "devDependencies": {
+    "hint": "^7.1.1"
+  }
 }
