@@ -11,7 +11,9 @@ html {
 }
 
 body {
-    background-color: rgb(15, 60, 60);
+    background-image: url('./images/books.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     align-items: center;
     overflow-y: scroll;
