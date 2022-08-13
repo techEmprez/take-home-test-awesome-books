@@ -1,5 +1,5 @@
 # awesome-books-ES6
-- This is a book collection site, with plain JavaScript implementation
+- This is a book collection site, with plain JavaScript implementation(ES6)
 
 ## Built With
 
