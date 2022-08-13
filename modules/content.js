@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 const collection = document.querySelector('.collection');
 const title = document.querySelector('#title');
 const author = document.querySelector('#author');
