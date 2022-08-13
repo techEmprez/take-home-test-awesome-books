@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Awesome Books-ES6</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js" type="module"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Awesome Books</h1>
+            <nav>
+                <ul>
+                    <li><button type="button" class="linkBtn active" id="listBtn">List</button>
+                    </li>
+                    <li>|</li>
+                    <li><button type="button" class="linkBtn" id="addNewBtn">Add New</button></li>
+                    <li>|</li>
+                    <li><button type="button" class="linkBtn" id="contactBtn">Contact</button></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="dateDisplay"></div>
+
+        <!-- List Section -->
+        <section class="list" id="list">
+            <h2>Your Awesome Books</h2>
+            <div class="collection">
+            </div>
+        </section>
+
+        <!-- AddNew Section -->
+        <section class="addNew" id="addNew">
+            <h2>Add a new book</h2>
+            <div class="book-input">
+                <label for="title"></label>
+                <input type="text" id="title" name="title" placeholder="Title">
+                <label for="author"></label>
+                <input type="text" id="author" name="author" placeholder="Author">
+                <button type="button" id="addBtn">Add</button>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2>Contact information</h2>
+            <p>Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!
+            </p>
+            <ul>
+                <li>Our e-mail: mail@mail.com</li>
+                <li>Our phone number: +234-803-647474-44</li>
+                <li>Our address: Streetname 22, 84503 City, Country</li>
+            </ul>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <span>Copyright ©️ 2022</span>
+           
+            <span>&</span>
+            <span>
+                <a href="https://github.com/techEmprez">techEmprez</a>
+            </span>
+            
+        </footer>
+
+    </body>
+
+</html>

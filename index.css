@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url('./images/books.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  color: white;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  padding: 1rem 0.5rem;
+  width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+
+.linkBtn {
+  text-decoration: none;
+  color: #c6c6c6;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.active {
+  color: white;
+}
+
+.dateDisplay {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 1rem;
+  padding-right: 70px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+button {
+  border: 2px solid black;
+  box-shadow: 2px 2px 1px black;
+  padding: 0.25rem;
+}
+
+input {
+  height: 30px;
+  margin: 5px 0;
+  border: 3px solid black;
+}
+
+/* List Section */
+.list {
+  display: block;
+  width: 90%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.list h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.collection div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+}
+
+.collection div:nth-child(even) {
+  background-color: white;
+}
+
+.collection div:nth-child(odd) {
+  background-color: #c6c6c6;
+}
+
+.collection p {
+  margin: auto 0 auto 10px;
+}
+
+.collection button {
+  margin: auto 10px auto 0;
+  height: 35px;
+}
+
+.line {
+  margin-top: 20px;
+  height: 3px;
+  width: 200px;
+  background-color: black;
+}
+
+/* Add New Section */
+.addNew {
+  display: none;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.addNew h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.book-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-input input {
+  padding: 1rem;
+}
+
+#addBtn {
+  margin-left: auto;
+  padding: 0.5rem;
+}
+
+/* Contact Section */
+.contact {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contact p,
+.contact ul {
+  text-align: left;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact ul {
+  margin-left: 3rem;
+}
+
+/* Footer Section */
+footer {
+  width: 100%;
+  border: 3px solid black;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer img {
+  width: 1rem;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    font-size: 1.5rem;
+  }
+
+  .addNew {
+    display: none;
+    width: 40%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
