@@ -1,5 +1,5 @@
 # take-home-test-awesome-books
-- This is a book collection site, with plain JavaScript implementation(ES6)
+- This is a book collection site, with plain JavaScript implementation(ES6), it collects data of book names and authors, retrieves, stores and displays inputted data.
 
 ## Built With
 
